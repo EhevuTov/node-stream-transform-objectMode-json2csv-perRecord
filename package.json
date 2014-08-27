@@ -1,0 +1,29 @@
+{
+  "name": "object_mode-json2csv-per_record",
+  "version": "0.0.0",
+  "description": "A node transform stream in object mode that consumes a JSON object and produces a CSV record with optional header until null is consumed",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EhevuTov/node-stream-transform-objectMode-json2csv-perRecord"
+  },
+  "keywords": [
+    "node",
+    "stream",
+    "transform",
+		"objectMode",
+    "json",
+    "csv",
+    "per",
+    "record"
+  ],
+  "author": "James Gosnell <jamesgosnell@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EhevuTov/node-stream-transform-objectMode-json2csv-perRecord/issues"
+  },
+  "homepage": "https://github.com/EhevuTov/node-stream-transform-objectMode-json2csv-perRecord"
+}
