@@ -17,8 +17,10 @@ in your program:
 ```
 // require this module
 var Json2csv = require('object_mode-json2csv-per_record');
+
 // instantiate a new object from the module
 var json2csv = new Json2csv();
+
 // pipe from a readable stream that pipes out JSON objects one at a time
 // 'readStream' is a readable stream you must create on your own
 readStream.pipe(json2csv);
